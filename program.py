@@ -46,7 +46,9 @@ def sonsuz(): # 1'den sonsuza aralığını tanımla
 for a in sonsuz():
 
     if collatz_sorunu(a) == 1: # Döngü 1 ile biterse
-    
+        
+        #print(sequence) # Eğer döngü kümesi de yazdırılsın isterseniz bu satırın yorumunu kaldırın
+        
     	print(str(a) + " 1 ile bitti") # Yazdır
     	
     else:
